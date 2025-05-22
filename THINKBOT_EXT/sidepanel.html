@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkBot Research Assistant</title>
+    <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button id="toggleMode">🌙 Dark Mode</button>
+
+    <div class="container">
+        <div class="header">
+            <!-- Animated Orbit Around Logo -->
+            <div class="logo-container">
+                <div class="orbit"></div> 
+                <img src="think.png" alt="ThinkBot Logo" class="logo">
+            </div>
+            <h2>ThinkBot Research Assistant</h2>
+        </div>
+
+        <div class="actions">
+            <button id="summarize">Summarize</button>
+        </div>
+
+        <!-- Voice Input for Notes -->
+        <div class="notes">
+            <textarea id="notes" placeholder="Take notes here"></textarea>
+            <button id="voiceInput">🎤 Speak</button>
+            <button id="savenotesbutton">Save Notes</button>
+            <button id="downloadPdf">📥 Download PDF</button>
+        </div>
+
+        <div id="results"></div>
+    </div>
+    
+    <script src="sidepanel.js"></script>
+</body>
+</html>

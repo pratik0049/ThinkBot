@@ -1,0 +1,2 @@
+gemini apikey=AIzaSyCmXBUgJ_vUT_DRDbbHv0-k-UfMVykSYB0
+

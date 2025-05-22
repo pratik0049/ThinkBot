@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="assistant">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assistant.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
